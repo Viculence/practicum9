@@ -7,5 +7,5 @@ for line in lines:
     if line.strip() != "100":
         result.append(line.strip())
 
-with open("output.txt", "w", encoding="utf-8") as output_file:
-    output_file.write("\n".join(result))
+with open("input.txt", "w", encoding="utf-8") as input_file:
+    input_file.write("\n".join(result))
